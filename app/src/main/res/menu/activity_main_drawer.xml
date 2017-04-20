@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_resep"
+            android:icon="@drawable/ic_resep"
+            android:title="Resep" />
+        <item
+            android:id="@+id/nav_notif"
+            android:icon="@drawable/ic_notification"
+            android:title="Notification" />
+        <item
+            android:id="@+id/nav_laporan"
+            android:icon="@drawable/ic_laporan"
+            android:title="Laporan" />
+        <item
+            android:id="@+id/nav_point"
+            android:icon="@drawable/ic_point"
+            android:title="Poin" />
+        <item
+            android:id="@+id/nav_keluar"
+            android:icon="@drawable/ic_logout"
+            android:title="Keluar" />
+    </group>
+
+</menu>

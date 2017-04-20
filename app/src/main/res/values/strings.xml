@@ -1,0 +1,207 @@
+<resources>
+    <string name="app_name">MotherChoice</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="splashscreen"> Mothers Choice merupakan aplikasi yang dapat membantu ibu dalam memberikan program serta pola untuk penyandang autis membantu dalam peroses penghilangan makanan yang mengandung gluten dan kasein. applikasi ini digunakan dalam program dan pola yang diatur selama 4 minggu. perminggunya dilakukan dengan menjalankan resep makanan yang ada dalam aplikasi. selama menjalankan program 4 minggu ini, akan terus dilakukan pengontrolan untuk ibu oleh komunitas yang memprogram applikasi ini, keuntungannya ibu mendaptkan vocher untuk membeli yang diinginkan</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="title_activity_kwetiaw">KwetiawActivity</string>
+    <string name="kwetiaw">
+        "Bahan.\n\n"
+
+        "100 gr tepung beras.\n"
+        "4 sdm tepung maezena.\n"
+        "250 cc air matang.\n"
+        "1 sdt garam.\n"
+        "1 sdm minyak sayur.\n\n"
+    </string>
+    <string name="kwetiaw_masak">
+
+        "Cara Buat.\n\n"
+        "1.siapkan dandang untuk mengukus dan panaskan dengan api sedang.\n"
+        "2.campur semua bahan, terakhir air.\n"
+        "3.siapkan loyang yang sudah di ples minya tipis( sebaikya loyangnya yang teflon) taruh di kukusan.\n"
+        "4.tuang bahan ke loyang...seperti mendadar kukus sampai matang.\n"
+        "5.ampai tidak lengket di Loyang.\n"
+        "6.angkat loyang...dengan isinya taruh di baskom yang merisis air dingin.\n"
+        "7.gulung, potong-potong.\n"
+
+    </string>
+    <string name="miebasil">
+        "Bahan. \n\n"
+
+        "1 bungkus mie basil.\n"
+        "5 biji bawang merah, iris.\n"
+        "2 biji bawang putih, geprek lalu iris.\n"
+        "2 biji cabe, iris.\n"
+        "6 biji bakso ikan,iris tipis.\n"
+        "1/2 ikat sayur hijau.\n"
+        "1 buah tomat, potong memanjang.\n"
+        "1 batang daun bawang, iris.\n\n"
+
+    </string>
+    <string name="miebasil_masak">
+        "Cara Buat.\n\n"
+        "1.Rebus mie basil hingga matang (jangan terlau lunak),masukkan bumbu dari kemasan mie Ladang.\n"
+        "2.Tumis bawang merah, bawang putih, cabe. masukkan bakso ikan. tumia hingga setengah matang.\n"
+        "3.Masukkan sayur hijau, tambahkan dengan bumbu ala mie jawa.\n"
+        "4.Aduk hingga sayur mulai layu, masukkan mie dan potongan tomat. aduk rata, koreksi rasa dan sajikan.\n"
+
+    </string>
+    <string name="kuekalapa">
+        "Bahan.\n\n"
+
+        "150 gr margarine cair.\n"
+        "40 gr gula pasir.\n"
+        "150 gr tepung beras/ maizena.\n"
+        "70 gr tepung kelapa / kelapa parut yang di keringkan atau sangrai.\n"
+        "kismis atau ceri untuk hiasan.\n\n"
+    </string>
+    <string name="kuekalapa_masak">
+        "Cara Buat.\n\n"
+        "1.campur margarin cair dengan gula dalam satu wadah.  tambahkan tepung maizena/ beras dan tepung kelapa aduk hingga rata.\n"
+        "2.masukkan daonan di kulkas sekitar 1 jam ( bungkus dengan plastik) panaskan oven 120 derajat. siapkan silfat atau kertas roti pada cetakan tanpa di poles oleh apapun.\n"
+        "3.keluarkan dari kulkas adonan bentuk bulat2 dan hias dengan ceri atau kismis.\n"
+        "4.tuang bahan ke loyang...seperti mendadar kukus sampai matang.\n"
+        "5.masukkan ke oven, panggang sekitar 8  sd 15 menit hingga melebar dan pinggirnya kekuningan.\n"
+        "6.keluarkan dari oven( kue tetap lembek) diamkan di cetakan hingga dingin dan sedikit mengeras( sekitar 1 jam an).\n"
+        "7.setelah setah mengeras dan dingin lepaskan dari cetakan.\n"
+    </string>
+    <string name="doughnuts_gluten_free">
+
+        "Bahan. \n\n"
+
+        "1 buah pisang, lembutkan.\n"
+        "200 gr tp beras.\n"
+        "75 cc santan atau susu hangat.\n"
+        "1 sdm ragi instant.\n"
+        "4 sdm minyak goreng.\n"
+        "1/4 sdt garam.\n\n"
+    </string>
+    <string name="doughnuts_gluten_free_masak">
+        "Cara Buat.\n\n"
+        "1.Haluskan pisang  masukkan tp beras dan aduk rata tambahkan ragi dan aduk rat tambahkan santan sedikit demi sedikit sampai rata masukkan minyak dan terakhir garam aduk hingga rata.\n"
+        "2.diamkan 30 menit hingga mengembang dia kali lipat taruh di donuts maker atau cetakan donut (Panggang).\n"
+        "3.Setelah kekuningan angkat. Panaskan minyak dan gorreng hingga kecoklatan.\n"
+        "4.setelah kecoklatan angakt dan tiriskan. bila suka bisa di hias dengan coklat tau gula bubuk.\n"
+    </string>
+    <string name="nasigoreng">
+
+        "Bahan. \n\n"
+
+        "2 porsi nasi putih.\n"
+        "150 gram sayuran beku; rebus, tiriskan.\n"
+        "2 buah telur ukuran besar.\n"
+        "2 sdm kecap asin gluten-free/reduced-sodium.\n"
+        "1 sdt minyak wijen.\n"
+        "Sejumput garam.\n"
+        "1 batang bawang daun.\n"
+        "Biji wijen untuk hiasan (opsional).\n"
+        "1 sdt bubuk bawang putih.\n\n"
+    </string>
+    <string name="nasigoreng_masak">
+
+        "Cara Buat.\n\n"
+        "1.Tempatkan nasi dalam mangkuk. Pastikan mangkuk cukup besar agar Anda dapat menata sayuran di atas nasi. Taburkan setengah porsi dari sayuran di atas nasi, atau secukupnya sampai memenuhi mangkuk. Tutup mangkuk dengan cling film. Buat lubang menembus plastik sebagai ventilasi.\n"
+        "2.Panaskan microwave dalam suhu tinggi dan atur waktu 1 menit. Anda akan ingin memasak nasi dalam suhu tinggi, namun jangan yang tertinggi.\n"
+        "3.Sementara menunggu nasi masak, kocok 1 telur, 1 sdm kecap asin, 1/2 sdt minyak wijen, 1/2 sdt bubuk bawang putih, 1/4 sdt rempah all-spice, dan garam. Keluarkan mangkuk dari microwave dan tuang kocokan telur. Aduk nasi dengan sendok atau garpu beberapa kali. Tutup mangkuk dengan cling wrap sekali lagi. Masukkan nasi kembali dalam microwave dalam suhu tinggi selama 1-1.30 menit. Biarkan nasi selama beberapa menit.\n"
+        "4.Aduk nasi beberapa kali. Telur mungkin akan mengendap di dasar mangkuk, sehingga Anda ingin “melepas”nya. Ini adalah langkah yang penting, jadi jangan dilewatkan(Sajikan).\n"
+        "5.ulangi langkah 1-4 untuk porsi kedua.\n\n"
+    </string>
+    <string name="telurdadarkentang">
+        "Bahan. \n\n"
+        "250 gram kentang.\n"
+        "1 brokoli ukuran sedang, potong kuntumnya.\n"
+        "2 fillet salmon tanpa kulit.\n"
+        "1 sdm minyak zaitun.\n"
+        "Setengah genggam daun mint, cincang kasar.\n"
+        "4 telur, kocok.\n\n"
+    </string>
+    <string name="telurdadarkentang_masak">
+
+        "Cara Buat.\n\n"
+        "1Rebus kentang dalam panci besar selama 10-12 menit.\n"
+        "tambahkan kuntum-kuntum brokoli di 4 menit terakhir sampai semua bahan rebusan empuk.\n"
+        "Angkat dan tiriskan. Sementara itu, taruh fillet salmon dalam loyang panggangan.\n"
+        "cipratkan sedikit air, dan bungkus dengan cling film.\n"
+        "Microwave dalam suhu tinggi selama 2 1/2 menit sampai setengah matang.\n"
+        "2.Panaskan panggangan.\n\n"
+        "Panaskan minyak dalam wajan penggorengan.\n"
+        "Potong kentang besar-besar, kemudian masak di atas api tinggi sampai pinggirannya berubah keemasan.\n"
+        "Suwir-suwir salmon dalam ukuran besar, dan campurkan ke dalam campuran brokoli dan kentang.\n"
+        "Masukkan daun mint dan bumbu-bumbu (garam merica) ke dalam kocokan telur, kemudian tuang ke dalam wajan.\n"
+        "Biarkan masak selama 6 menit dalam api kecil sampai pinggiran omelette matang.\n"
+        "Masukkan ke dalam oven untuk mematangkan seluruhnya, hingga emas kecokelatan.\n"
+        "Sajikan hangat dengan sald hijau di sampingnya.\n\n"
+    </string>
+    <string name="glutenfree">
+
+        "Bahan. \n\n"
+        "500 gr Tepung Bebas Gluten (disni saya menggunakan tepung bebas gluten Ladang Lima).\n"
+        "80 gr Gula pasir.\n"
+        "20 gr Susu bubuk.\n"
+        "2 pcs Telur.\n"
+        "10 gr Garam.\n"
+        "15 gr Yeast.\n"
+        "6 gr Ovalet.\n"
+        "15 gr Xanthan Gum.\n"
+        "10 gr Baking powder.\n"
+        "40 gr Minyak Sayur.\n"
+        "350 gr Air.\n"
+        "8 gr Apple Cider.\n"
+        "sesuai selera Topping.\n\n"
+    </string>
+    <string name="glutenfree_masak">
+
+        "Cara Buat.\n\n"
+        "1.Campurkan bahan kering (tepung, gula pasir, susu bubuk, garam, yeast, xanthan gum, baking powder), aduk rata.\n"
+        "2.Masukkan air, telur, apple cider dan ovalet, aduk kira-kira 5 menit.\n"
+        "3.Masukkan minyak sayur, aduk rata.\n"
+        "4.Bentuk adonan menjadi 1 bulatan dan bagi adonan jadi 2 dan tipiskan di dalam Loyang.\n"
+        "Diamkan 15 – 20 menit, kemudian beri topping sesuai selera.\n"
+        "5.Panggang adonan dengan suhu 200-220 derajat celcius kira-kira 10 menit/ sampai matang.\n"
+        "6.Angkat pizza dari oven dan siap untuk disajikan.\n\n"
+    </string>
+    <string name="nuggetgurami">
+        "Bahan.\n\n"
+        "700 gram fillet gurami.\n"
+        "5 sdm tepung beras putih organik (gasol).\n"
+        "4 siung bawang putih, haluskan.\n"
+        "150 gram tepung roti beras (naturales).\n"
+        "2 butir telur dikocok untuk celupan.\n"
+        "1 sdt garam perancis.\n\n"
+    </string>
+    <string name="nuggetgurami_masak">
+
+
+        "Cara Buat.\n\n"
+        "1.Blender daging gurami. Bisa juga diiris kecil2( Taruh di wadah).\n"
+        "2.Masukkan bawang putih halus.\n"
+        "3.Masukkan tepung beras. Uleni hingga rata.\n"
+        "4.Tambahkan garam perancis sesuai selera. Uleni kembali hingga rata.\n"
+        "5.Masukkan adonan ke wadah pengukus berkualitas bagus.\n"
+        "Seperti stainless atau kaca, Kaca tahan panas lebih baik, Kukus kurang lebih 30 menit.\n"
+        "6.Keluarkan adonan gurami yang telah masak dari wadah pengukus. Potong2 sesuai selera.\n"
+        "7.Kocok 2 butir telur tambahkan garam sesuai selera.\n"
+        "8.Masukkan nugget gurami ke telur aduk rata.\n"
+        "9.Lalu nugget gurami gulingkan ke tepung roti di dalam wadah terpisah.\n\n"
+    </string>
+</resources>
