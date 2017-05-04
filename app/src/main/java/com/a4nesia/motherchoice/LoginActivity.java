@@ -32,6 +32,7 @@ public class LoginActivity extends AppCompatActivity {
             Toast.makeText(this, "Login Sukses", Toast.LENGTH_SHORT).show();
             Intent intent = new Intent(LoginActivity.this, MainActivity.class);
             startActivity(intent);
+            finish();
         } else if ((text1.matches("") || text2.matches("")))
           /*
           Atau jika input text 1 dan text 2 kosong

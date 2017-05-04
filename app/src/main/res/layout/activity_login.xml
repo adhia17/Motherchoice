@@ -29,7 +29,7 @@
         android:layout_marginTop="100dp"
         android:fontFamily="biko"
         android:hint="Username"
-        android:inputType="textCapWords"
+        android:inputType="textPersonName"
         android:textSize="15dp" />
 
     <EditText
@@ -43,7 +43,7 @@
         android:layout_marginRight="100dp"
         android:fontFamily="monospace"
         android:hint="Password"
-        android:inputType="textCapWords"
+        android:inputType="textPassword"
         android:textSize="15dp" />
 
     <Button

@@ -3,7 +3,7 @@
     android:id="@+id/resep_layout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/ic_perminggu"
+    android:background="@drawable/ic_fragresep"
     tools:context="com.a4nesia.motherchoice.ResepFragment">
 
     <!-- TODO: Update blank fragment layout -->
@@ -30,11 +30,11 @@
                     android:id="@+id/textView2"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:padding="50dp"
-                    android:textSize="30dp"
+                    android:layout_marginTop="100dp"
                     android:text="Daftar Minggu"
                     android:textAlignment="center"
                     android:textColor="#000"
+                    android:textSize="30dp"
                     android:textStyle="bold" />
             </LinearLayout>
 
@@ -47,8 +47,11 @@
                 <Button
                     android:id="@+id/minggu_1"
                     android:layout_width="0dp"
-                    android:layout_height="match_parent"
-                    android:layout_margin="30dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="50dp"
+                    android:layout_marginLeft="100dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="50dp"
                     android:layout_weight="1"
                     android:background="@drawable/ic_minggu1"
                     android:textSize="15dp" />
@@ -57,7 +60,10 @@
                     android:id="@+id/minggu_2"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
-                    android:layout_margin="30dp"
+                    android:layout_marginTop="50dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="100dp"
+                    android:layout_marginBottom="50dp"
                     android:layout_weight="1"
                     android:background="@drawable/ic_minggu2" />
             </LinearLayout>
@@ -72,7 +78,9 @@
                     android:id="@+id/minggu_3"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
-                    android:layout_margin="30dp"
+                    android:layout_marginLeft="100dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="100dp"
                     android:layout_weight="1"
                     android:background="@drawable/ic_minggu3" />
 
@@ -80,7 +88,9 @@
                     android:id="@+id/minggu_4"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
-                    android:layout_margin="30dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="100dp"
+                    android:layout_marginBottom="100dp"
                     android:layout_weight="1"
                     android:background="@drawable/ic_minggu4" />
             </LinearLayout>

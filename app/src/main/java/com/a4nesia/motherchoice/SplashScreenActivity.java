@@ -31,13 +31,18 @@ public class SplashScreenActivity extends AppCompatActivity {
                 Intent i = new Intent(SplashScreenActivity.this, LoginActivity.class);
                 startActivity(i); // menghubungkan activity splashscren ke main activity dengan intent
                 //jeda selesai Splashscreen
-                this.finish();
-            }
-            private void finish() {
-                // TODO Auto-generated method stub
+                finish();
             }
         }, splashInterval);
-
+        /*
+        getSharedPreferences("LAPORAN", MODE_APPEND).edit().putInt("KWETIAW", 0).commit();
+        getSharedPreferences("LAPORAN", MODE_APPEND).edit().putInt("MIEBASIL", 0).commit();
+        getSharedPreferences("LAPORAN", MODE_APPEND).edit().putInt("KUEKELAPA", 0).commit();
+        getSharedPreferences("LAPORAN", MODE_APPEND).edit().putInt("NASIGORENG", 0).commit();
+        getSharedPreferences("LAPORAN", MODE_APPEND).edit().putInt("DONAT", 0).commit();
+        getSharedPreferences("LAPORAN", MODE_APPEND).edit().putInt("PIZZA", 0).commit();
+        getSharedPreferences("LAPORAN", MODE_APPEND).edit().putInt("NUGGET", 0).commit();
+        getSharedPreferences("LAPORAN", MODE_APPEND).edit().putInt("TELURDADAR", 0).commit(); */
     };
 }
 

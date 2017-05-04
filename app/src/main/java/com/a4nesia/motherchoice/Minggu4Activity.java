@@ -28,5 +28,21 @@ public class Minggu4Activity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+        mButtonStart = (Button) findViewById(R.id.dorayaki_button);
+        mButtonStart.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(Minggu4Activity.this, DorayakiActivity.class); // dari MainActivity/posisi saat ini ke SecondActivity
+                startActivity(intent);
+            }
+        });
+        mButtonStart = (Button) findViewById(R.id.kebab_button);
+        mButtonStart.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(Minggu4Activity.this, KebabActivity.class); // dari MainActivity/posisi saat ini ke SecondActivity
+                startActivity(intent);
+            }
+        });
     }
 }

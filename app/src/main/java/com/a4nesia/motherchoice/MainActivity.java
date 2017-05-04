@@ -104,25 +104,21 @@ public class MainActivity extends AppCompatActivity
             case R.id.nav_laporan:
                 fragment = new LaporanFragment();
                 break;
-
+            case R.id.nav_keluar:
+                startActivity(new Intent(MainActivity.this, LoginActivity.class));
+                finish();
+                break;
         }
 
         //replacing the fragment
         if (fragment != null) {
             FragmentTransaction ft = getSupportFragmentManager().beginTransaction();
             ft.replace(R.id.content_frame, fragment);
-            ft.commit();
+            ft. addToBackStack( "tag" ).commit();
         }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
-
-        switch (itemId) {
-            case R.id.nav_keluar:
-                activity = new LoginActivity();
-                break;
-
-        }
 
     }
 }

@@ -71,12 +71,14 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
                 android:layout_weight="1"
-                android:background="@color/abuabu">
+                android:background="@drawable/ic_kebab">
 
                 <Button
+                    android:id="@+id/kebab_button"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="120dp"
+                    android:text="KEBAB"
                     android:layout_weight="1"
                     android:fontFamily="monospace"
                     android:textColor="#000"
@@ -89,13 +91,15 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
                 android:layout_weight="1"
-                android:background="@color/abuabu">
+                android:background="@drawable/ic_kebab">
 
                 <Button
+                    android:id="@+id/dorayaki_button"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="120dp"
                     android:layout_weight="1"
+                    android:text="DORAYAKI"
                     android:fontFamily="monospace"
                     android:textColor="#000"
                     android:textSize="12dp"

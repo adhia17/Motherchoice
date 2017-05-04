@@ -3,6 +3,7 @@
     android:id="@+id/notification_layout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/ic_pemberitahuang"
     tools:context="com.a4nesia.motherchoice.NotificationFragment">
 
     <!-- TODO: Update blank fragment layout -->
@@ -10,5 +11,13 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:text="Notif" />
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/recycler_view_notification"
+        android:scrollbars="vertical">
+
+    </android.support.v7.widget.RecyclerView>
 
 </FrameLayout>

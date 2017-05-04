@@ -2,7 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/ic_pengerjaan"
+    android:background="@drawable/masaic"
     android:orientation="vertical"
     android:padding="20dp">
 
@@ -27,6 +27,7 @@
             android:layout_weight="3"
             android:src="@drawable/ic_kwetiaw" />
     </LinearLayout>
+
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="0dp"

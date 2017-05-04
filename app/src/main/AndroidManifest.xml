@@ -49,7 +49,11 @@
         <activity android:name=".MieBasilMActivity" />
         <activity android:name=".NasiGorengMActivity" />
         <activity android:name=".NuggetGuramiMActivity" />
-        <activity android:name=".TelurDadarMActivity"></activity>
+        <activity android:name=".TelurDadarMActivity" />
+        <activity android:name=".DorayakiActivity" />
+        <activity android:name=".DorayakiMActivity" />
+        <activity android:name=".KebabActivity" />
+        <activity android:name=".KebabMActivity"></activity>
     </application>
 
 </manifest>

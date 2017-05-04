@@ -5,17 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="@drawable/ic_splash"
+    android:background="@drawable/backsplash"
     tools:context="com.a4nesia.motherchoice.SplashScreenActivity">
-
-
-
-    <TextView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_margin="50dp"
-            android:paddingTop="100dp"
-            android:text="@string/splashscreen" />
 
 
 </RelativeLayout>

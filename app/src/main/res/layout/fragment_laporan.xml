@@ -1,14 +1,94 @@
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/laporan_layout"
+    android:id="@+id/point_layout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.a4nesia.motherchoice.LaporanFragment">
+    android:background="@drawable/laporanic"
+    tools:context="com.a4nesia.motherchoice.PointFragment">
 
     <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/pengerjaan"
+                android:layout_width="150dp"
+                android:layout_height="48dp"
+                android:layout_marginBottom="16dp"
+                android:layout_marginRight="8dp"
+                android:background="@drawable/transparan"
+                android:text="Pengerjaan"
+                android:textColor="#FFFFFF" />
+
+            <Button
+                android:id="@+id/laporankomunitas"
+                android:layout_width="150dp"
+                android:layout_height="48dp"
+                android:layout_marginBottom="16dp"
+                android:layout_marginLeft="8dp"
+                android:background="@drawable/transparan"
+                android:text="Laporan Komunitas"
+                android:textColor="#FFFFFF" />
+
+        </LinearLayout>
+
+        <ImageView
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:layout_height="200dp"
+            android:layout_width="200dp"
+            android:src="@drawable/progres0"
+            android:id="@+id/progress_bar"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_centerInParent="true"
+            android:id="@+id/square_bar">
+
+            <ImageView
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true"
+                android:layout_height="30dp"
+                android:layout_width="200dp"
+                android:src="@drawable/laporan0"
+                android:id="@+id/square_bar1"/>
+
+            <ImageView
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true"
+                android:layout_height="30dp"
+                android:layout_width="200dp"
+                android:src="@drawable/laporan0"
+                android:id="@+id/square_bar2"/>
+
+            <ImageView
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true"
+                android:layout_height="30dp"
+                android:layout_width="200dp"
+                android:src="@drawable/laporan0"
+                android:id="@+id/square_bar3"/>
+
+            <ImageView
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true"
+                android:layout_height="30dp"
+                android:layout_width="200dp"
+                android:src="@drawable/laporan0"
+                android:id="@+id/square_bar4"/>
+        </LinearLayout>
+    </RelativeLayout>
 
 </FrameLayout>
